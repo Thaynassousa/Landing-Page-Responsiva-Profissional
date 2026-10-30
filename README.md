@@ -9,7 +9,7 @@ Este projeto consiste em uma Landing Page Profissional Responsiva desenvolvido c
 - JavaScript: funcionalidades e interatividade.
 
 ## Objetivo
-Aplicar conhecimentos de desenvolvimento Front-End na criação de uma página web.
+Aplicar conhecimentos de desenvolvimento Front-End na criação de uma página web responsiva e rica em funcionalidades.
 
 ## Autora
 Thayná de Sousa Simões
