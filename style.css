@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --cor-fundo: #0b1120;
+  --cor-superficie: #111c31;
+  --cor-destaque: #38bdf8;
+  --cor-texto: #e5edf8;
+  --cor-suave: #b8c5d8;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  line-height: 1.7;
+}
+.navbar { background: rgba(11, 17, 32, .96); box-shadow: 0 2px 16px rgba(0,0,0,.15); }
+.navbar-brand { letter-spacing: .2px; }
+.nav-link { color: #dbeafe !important; margin-left: .4rem; }
+.nav-link:hover, .nav-link:focus { color: var(--cor-destaque) !important; }
+.hero {
+  min-height: 100vh;
+  padding: 120px 0 70px;
+  color: var(--cor-texto);
+  background: radial-gradient(circle at top right, #183b5c 0, transparent 38%), linear-gradient(135deg, #0b1120, #14243c);
+}
+.hero .lead { max-width: 850px; color: #d0dced; }
+.btn-destaque { background: var(--cor-destaque); color: #082032; border: 2px solid var(--cor-destaque); font-weight: 700; }
+.btn-destaque:hover { background: #7dd3fc; border-color: #7dd3fc; color: #082032; }
+.btn-outline-light { font-weight: 600; }
+section { scroll-margin-top: 72px; }
+section h2 { color: #10213b; }
+.secao-clara { background: #eef5fb; }
+.habilidade {
+  height: 100%;
+  padding: 1.5rem .8rem;
+  border-radius: 1rem;
+  background: white;
+  border: 1px solid #e1eaf4;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.habilidade:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(15, 35, 60, .12) !important; }
+.icone { font-size: 2.2rem; }
+.card { overflow: hidden; border: 0; border-radius: 1rem; }
+.card-topo { height: 8px; background: linear-gradient(90deg, #0f2c4d, var(--cor-destaque)); }
+.card-body { padding: 1.5rem; }
+.btn-principal { background: #102b4b; border-color: #102b4b; color: white; font-weight: 600; }
+.btn-principal:hover { background: #1c4976; border-color: #1c4976; color: white; }
+.form-control { padding: .75rem; border-color: #cbd5e1; }
+.form-control:focus { border-color: #38bdf8; box-shadow: 0 0 0 .2rem rgba(56, 189, 248, .2); }
+footer { color: #dbeafe; background: #0b1120; }
+@media (max-width: 575.98px) {
+  .hero { padding-top: 110px; }
+  .hero h1 { font-size: 2.25rem; }
+  .hero .btn { width: 100%; margin: .35rem 0 !important; }
+}
